@@ -16,7 +16,7 @@ app.use(
 app.use("/", GlobalRoutes);
 
 app.get("/", (req, res) => {
-  res.send("welcome in Food Delivery App");
+  res.send("welcome Again");
 });
 const startConnection = async () => {
   try {
